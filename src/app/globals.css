@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #f7f3ea;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(181, 150, 90, 0.16), transparent 34rem),
+    linear-gradient(180deg, #f7f3ea 0%, #f2f0e8 42%, #fbfaf6 100%);
+  color: #171714;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "YuGothic",
+    "Noto Sans JP", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+::selection {
+  background: #143f3a;
+  color: #fffdf8;
+}
+
+.section-shell {
+  width: min(1120px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.soft-grid {
+  background-image:
+    linear-gradient(rgba(23, 23, 20, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(23, 23, 20, 0.06) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}

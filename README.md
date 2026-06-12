@@ -33,3 +33,24 @@ PNのミッションは「良いモノ・人・文化を埋没させない」こ
 - [実装ロードマップ](./docs/implementation_roadmap.md)
 - [運用ルール](./docs/operating_rules.md)
 
+## Corporate Site
+
+Next.js 15 / TypeScript / Tailwind CSS で構築した、合同会社PNのシングルページランディングサイトをルートに追加しています。
+
+### Development
+
+```bash
+npm install
+npm run dev
+```
+
+Open `http://localhost:3000`.
+
+### Production
+
+```bash
+npm run build
+npm run start
+```
+
+Vercel ではそのままインポートしてデプロイできます。
