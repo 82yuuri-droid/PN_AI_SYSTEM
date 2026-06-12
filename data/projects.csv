@@ -1,0 +1,5 @@
+project_id,client_name,service,contract_amount,cost_amount,estimated_hours,actual_hours,start_date,end_date,status,is_first_contract,is_continued,recruiting_result_count,deliverable_count,revision_count,owner
+P-0001,Sample Client A,SNS運用,300000,80000,35,32,2026-06-01,2026-06-30,active,yes,unknown,0,20,2,PN
+P-0002,Sample Client B,採用支援,500000,120000,45,48,2026-06-01,2026-06-30,active,yes,yes,3,8,3,PN
+P-0003,Sample Client C,動画制作,250000,90000,30,38,2026-06-05,2026-06-25,active,no,yes,0,2,5,PN
+

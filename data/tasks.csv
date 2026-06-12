@@ -1,0 +1,8 @@
+task_id,project_id,task_name,service,stage,owner,due_date,status,waiting_on,estimated_hours,actual_hours
+T-0001,P-0001,投稿企画20本,SNS運用,planning,PN,2026-06-07,done,,8,7
+T-0002,P-0001,月次レポート作成,SNS運用,reporting,PN,2026-06-30,in_progress,,4,0
+T-0003,P-0002,採用訴求改善案,採用支援,planning,PN,2026-06-10,waiting,client,6,4
+T-0004,P-0002,応募導線レビュー,採用支援,analysis,PN,2026-06-14,in_progress,,5,2
+T-0005,P-0003,初稿編集,動画制作,production,PN,2026-06-16,in_progress,,18,12
+T-0006,P-0003,修正対応,動画制作,revision,PN,2026-06-22,not_started,,6,0
+
